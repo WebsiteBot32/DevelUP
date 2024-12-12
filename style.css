@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --shadow-color: #5f327e;
     --accent-color: #8e71a8;
@@ -90,6 +90,7 @@ section.hero div {
 .hero-resume_progess-button:hover{
     background-color: var(--hover-white);
 }
+
 @media only screen and (min-width: 700px) { 
 	section.hero {
         margin-top: 11%;

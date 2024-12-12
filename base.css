@@ -3,6 +3,7 @@
     justify-content: space-around;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
   
 .nav__logo {
@@ -25,6 +26,7 @@
 }
     
 .nav__logo__title {
+    font-size: 2rem;
     color: var(--accent-color);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -57,7 +59,7 @@
 }
 
 .profile__setup {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
     color:  #000;
     font-size: 15px;
     font-weight: 600;
@@ -66,15 +68,30 @@
     border-radius: 10px;
 }
 
-.profile__label {
-    font-family: "Montserrat", sans-serif;
+.setup__input {
+    margin-block: 0.1rem;
+    font-family: "Mulish", sans-serif;
     color:  #000;
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.75px;
+    width: 400px;
+    height: 40px;
     background-color: var(--background);
+    border: rgb(229 229 229) solid 2px;
     border-radius: 10px;
 }
-.profile__label::placeholder  {
+.setup__input:focus-visible {
+    margin-block: 0.1rem;
     font-family: "Mulish", sans-serif;
+    color:  #000;
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    width: 400px;
+    height: 40px;
+    background-color: var(--background);
+    border: rgb(229 229 229) solid 2px;
+    border-radius: 10px;
 }
