@@ -3,29 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Create Profile</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="modern-normalize.css">
 </head>
 <body>
-    <header>
-        <h1>Setup Profile</h1>
-    </header>
     <main>
-        <form class="profile__setup" action="submit-profile" method="post">
-            <input type="text" class="setup__input" name="username" placeholder="Username" maxlength="24">
-            <br>
-            <input type="email" class="setup__input" name="email" placeholder="Email"required>
-            <br>
-            <input type="password" class="setup__input" name="password" placeholder="Password" required>
-            <br>
-            <button type="submit">Create Profile</button>
-        </form>
-    </main>
-
+        <div class="profile__setup__page">
+            <h1 class="page__title">Setup your profile</h1>
+            <form class="profile__setup" action="submit-profile" method="post">
+                <input type="text" class="setup__input" name="username" placeholder="Username" maxlength="24">
+                <br>
+                <input type="email" class="setup__input" name="email" placeholder="Email"required>
+                <br>
+                <input type="password" class="setup__input" name="password" placeholder="Password" required>
+                <br>
+                <button class="setup__button" type="submit">Create Profile</button>    
+            </form>
+        </div>
 </body>
 </html>
-<main>
-
-</main>
