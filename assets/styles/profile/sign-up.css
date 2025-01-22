@@ -1,0 +1,64 @@
+/* Profile Sign Up */
+
+.profile__setup {
+    display: flex;
+    margin-top: 20px;
+    flex-direction:column;
+    font-family: "Mulish", sans-serif;
+    color:  #000;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    background-color: var(--background);
+    border-radius: 10px;
+}
+
+.setup__input {    
+    transition: border 0.2s ease-in-out;
+    font-family: "Mulish", sans-serif;
+    color:  #000;
+    font-size: 17px;
+    padding: 0px 12px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    width: 400px;
+    height: 40px;
+    background-color: var(--background);
+    border: rgb(229 229 229) solid 2px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.setup__input:focus-visible {
+    background-color: var(--background);
+    border: var(--accent-color) solid 2px;
+}
+
+.profile__setup__page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.setup__button {
+   font-family: "Mulish", sans-serif;
+   color:  #fff;
+   font-size: 17px;
+   font-weight: 700;
+   letter-spacing: 0.75px;
+   width: 400px;
+   height: 40px;
+   border-radius: 10px;
+   border: none;
+   background-color: var(--accent-color);
+}
+
+.setup__button:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
+}
