@@ -1,0 +1,82 @@
+/* Home - Hero */
+
+section.hero {
+	display: flex;
+    align-items: center;
+    margin-inline: auto;
+    margin-block: 4rem;
+	flex-direction: column;
+}
+
+section.hero div {
+	text-align: center;
+}
+
+section.hero > * {
+    margin-inline: 1rem;
+}
+
+.hero__content__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__buttons {
+    width:75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#hero-img {
+    width: 400px;
+    height: 400px;
+    opacity: 90%;
+}
+#hero-h1 {
+    font-family: "Mulish", sans-serif;
+    font-size: 32px;
+    color: var(--shadow-black);
+    font-weight: 800;
+}
+.hero-get_started-button, .hero-resume_progess-button {
+    font-family: "Mulish", sans-serif;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: none;
+    line-height: 0.45;
+}
+.hero-get_started-button, .hero-resume_progess-button:hover {
+    cursor: pointer;
+}
+.hero-get_started-button {
+    color: var(--background);
+    background-color: var(--accent-color);
+}
+.hero-get_started-button:hover {
+    background-color: var(--hover-color);
+}
+.hero-resume_progess-button {
+    color: var(--plus-yellow);
+    background-color: var(--background);
+    border: rgb(229 229 229) solid 2px;
+}
+.hero-resume_progess-button:hover{
+    background-color: var(--hover-white);
+}
+
+
+
+@media only screen and (min-width: 700px) { 
+	section.hero {
+        margin-top: 11%;
+		max-width: 1000px;
+		flex-direction: row;
+	}
+}
