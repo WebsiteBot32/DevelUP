@@ -37,7 +37,7 @@
 .profile__setup__page {
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   flex-direction:column;
   justify-content: center;
   align-items: center;
