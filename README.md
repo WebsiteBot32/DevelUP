@@ -5,8 +5,18 @@ programming languages.
 
 ![DevelUP Landing Page](https://i.ibb.co/P1Jb3R4/2025-01-08-16-53-55-websitebot32-github-io-4f7ad090090c.png)
 
+## Tue 01/28
+
+- Fix CSS links
+- Creation footer
+
+## Wed 01/15
+
+- Rescheduled for Jan 28.
+
 ## Tue 01/14
 
+- CSS links accidentally broken due to double (/) on Github Pages deployment
 
 
 ## Wed 01/08
