@@ -26,4 +26,27 @@ body {
     text-decoration: none;
 }
 
+footer {
+  margin-inline: auto;
+  text-align: center;
+  padding-block: 2rem;
+  background-color: #efefef;
+  color: #888;
+}
+
+footer ol {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0;
+  font-size: .85rem;
+  margin-block: 2rem 1.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #888;
+}
+
 
