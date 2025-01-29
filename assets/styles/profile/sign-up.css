@@ -62,3 +62,8 @@
   background-color: var(--hover-color);
   cursor: pointer;
 }
+.or__line {
+    background: rgb(var(--color-swan));
+    flex-grow: 1;
+    height: 2px;
+}
