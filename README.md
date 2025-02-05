@@ -5,6 +5,16 @@ programming languages.
 
 ![DevelUP Landing Page](https://i.ibb.co/P1Jb3R4/2025-01-08-16-53-55-websitebot32-github-io-4f7ad090090c.png)
 
+## Tue 02/04
+
+- Create Github issue for footer link underlines
+- 
+
+## Wed 01/29
+
+- Footer refactoring and shadows
+- Continue editing sign up page
+
 ## Tue 01/28
 
 - Fix CSS links

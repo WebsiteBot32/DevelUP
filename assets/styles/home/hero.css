@@ -2,9 +2,9 @@
 
 section.hero {
 	display: flex;
-    align-items: center;
-    margin-inline: auto;
-    margin-block: 4rem;
+  align-items: center;
+  margin-inline: auto;
+  margin-block: auto;
 	flex-direction: column;
 }
 
