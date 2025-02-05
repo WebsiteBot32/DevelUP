@@ -62,3 +62,20 @@
   background-color: var(--hover-color);
   cursor: pointer;
 }
+
+.or {
+    display: flex;
+    align-items: center;
+}
+.__or__ {
+    color: #888;
+    margin: 12px 12px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+}
+
+.or__line {
+    background: #88888850;
+    flex-grow: 1;
+    height: 2px;
+}
