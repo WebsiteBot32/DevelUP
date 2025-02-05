@@ -79,3 +79,12 @@
     flex-grow: 1;
     height: 2px;
 }
+.authentification__button {
+    color: #757575;
+    background-color: var(--background);
+    border: rgb(229 229 229) solid 2px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+}
