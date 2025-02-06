@@ -18,10 +18,8 @@
 }
     
 .nav__logo__image {
-    height: 40px;
-    width: 40px;
-/*    margin-right: 5px;
-    margin-bottom:  5px;*/
+    height: 35px;
+    width: 35px;
     padding: 0;
     align-items: center;
     display: flex;
@@ -59,11 +57,18 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 400px){
+@media (min-width: 650px) {
+    .nav__logo__image {
+        height: 40px;
+        width: 40px;
+    }
     
     .nav__actions {
         display: inline-block;
     }
+}
+
+@media only screen and (min-width: 400px){
     
     .navbar-container {
         display: flex;
