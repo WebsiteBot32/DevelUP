@@ -43,8 +43,6 @@
   align-items: center;
 }
 
-
-
 .setup__button {
    font-family: "Mulish", sans-serif;
    color:  #fff;
@@ -69,7 +67,7 @@
 }
 .__or__ {
     color: #888;
-    margin: 12px 12px;
+    margin: 18px 12px;
     font-family: "Mulish", sans-serif;
     font-weight: 800;
 }
@@ -80,11 +78,20 @@
     height: 2px;
 }
 .authentification__button {
-    color: #757575;
+    color: #7a9eff;
     background-color: var(--background);
     border: rgb(229 229 229) solid 2px;
     width: 400px;
     height: 40px;
     border-radius: 10px;
     font-size: 17px;
+}
+.google__logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+.authentification__button:hover {
+    background-color: var(--hover-white);
+    cursor: pointer;
 }
