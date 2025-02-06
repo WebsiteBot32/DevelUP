@@ -6,6 +6,7 @@ section.hero {
   margin-inline: auto;
   margin-block: auto;
 	flex-direction: column;
+  padding-block: 2rem;
 }
 
 section.hero div {
@@ -32,9 +33,11 @@ section.hero > * {
 
 
 #hero-img {
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    height: auto;
     opacity: 90%;
+    width: 100%;
+    display: block;
 }
 #hero-h1 {
     font-family: "Mulish", sans-serif;
@@ -75,8 +78,11 @@ section.hero > * {
 
 @media only screen and (min-width: 700px) { 
 	section.hero {
-        margin-top: 11%;
 		max-width: 1000px;
 		flex-direction: row;
 	}
+  
+  section.hero > div {
+    width: 50%;
+  }
 }
